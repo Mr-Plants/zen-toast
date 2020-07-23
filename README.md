@@ -1,3 +1,6 @@
+![](https://img.shields.io/static/v1?label=gzip-size&message=9k&color=<COLOR>)
+![](https://img.shields.io/static/v1?label=test-coverage&message=100%&color=<COLOR>)
+
 ## Introduction
 a lightweight mobile toast component build on vue
 
