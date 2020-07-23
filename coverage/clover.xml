@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1595318823788" clover="3.2.0">
+  <project timestamp="1595318823788" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="16" coveredconditionals="16" methods="12" coveredmethods="12" elements="62" coveredelements="62" complexity="0" loc="34" ncloc="34" packages="2" files="2" classes="2"/>
+    <package name="zen-toast">
+      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+      <file name="index.js" path="/Users/weiyabo/zen-toast/index.js">
+        <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="28" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="zen-toast.src">
+      <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <file name="toast.vue" path="/Users/weiyabo/zen-toast/src/toast.vue">
+        <metrics statements="12" coveredstatements="12" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="47" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="5" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="60" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="5" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

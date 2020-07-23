@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`zen-toast_v_1.0.0 dom toast basic dom 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content base\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">爱过～</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 dom toast fail dom 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content fail\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">爱过～</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 dom toast loading dom 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content loading\\"><span class=\\"icon\\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> <span class=\\"message\\">loading...</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 dom toast success dom 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content success\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">爱过～</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 event click overlay should close toast 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content base\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">message</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 props message length should less than 18 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content base\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">messagemessagemessagemessagemessagemessagemessagemessage</span></div></div>"`;
+
+exports[`zen-toast_v_1.0.0 props props should set correct 1`] = `"<div class=\\"toast-overlay\\"><div class=\\"content base\\"><span class=\\"icon\\"><!----></span> <span class=\\"message\\">message</span></div></div>"`;

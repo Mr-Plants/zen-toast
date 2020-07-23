@@ -1,0 +1,43 @@
+{
+  "name": "zen-toast",
+  "version": "1.0.8",
+  "description": "a lightweight mobile toast component build on vue",
+  "typings": "types/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production rollup -c",
+    "test": "NODE_ENV=test jest",
+    "test_coverage": "NODE_ENV=test jest --coverage",
+    "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+    "release": "sh release.sh"
+  },
+  "keywords": [
+    "toast",
+    "mobile",
+    "vue",
+    "typescripts",
+    "light"
+  ],
+  "author": "weiyb",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "conventional-changelog-cli": "^2.0.34",
+    "jest": "^26.1.0",
+    "rollup": "^2.20.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-scss": "^2.5.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-jest": "^3.0.6",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
