@@ -9,10 +9,10 @@ function version_lt() { test "$(echo "$@" | tr " " "\n" | sort -rV | head -n 1)"
      exit 1
  fi
 
- sinopiaRegistry="http://100.73.16.43:4873/"
+ defaultRegistry="https://registry.npmjs.org/"
  currentRegistry=$(npm config get registry)
- if [ $currentRegistry != $sinopiaRegistry ]; then
-     npm config set registry $sinopiaRegistry
+ if [ $currentRegistry != $defaultRegistry ]; then
+     npm config set registry $defaultRegistry
  fi
 
 #echo "v" $(node --version | sed 's/^v//')
