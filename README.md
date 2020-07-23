@@ -52,10 +52,10 @@ Toast({
 
 | name | params | return | Description |
 |------|------|------|------|
-| Toast | `options ｜ message` | `void` | show a toast with default style |
-| Toast.success | `options ｜message` | `void` | show a toast with success style |
-| Toast.fail | `options ｜ message` | `void` | show a toast with fail style |
-| Toast.loading | `options ｜ message` | `void` | show a toast with loading style |
+| Toast | `options ｜ message` | toast instance | show a toast with default style |
+| Toast.success | `options ｜message` | toast instance | show a toast with success style |
+| Toast.fail | `options ｜ message` | toast instance | show a toast with fail style |
+| Toast.loading | `options ｜ message` | toast instance| show a toast with loading style |
 | toast.clear | - | `void` | instance method，clear current toast  |
 
 #### options
