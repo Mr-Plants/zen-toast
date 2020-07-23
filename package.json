@@ -1,6 +1,6 @@
 {
   "name": "zen-toast",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "description": "a lightweight mobile toast component build on vue",
   "typings": "types/index.d.ts",
   "main": "dist/index.js",
