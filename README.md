@@ -6,7 +6,7 @@ a lightweight mobile toast component build on vue
 
 ## Installation
 ```
-  npm i zen-toast -S
+  npm install zen-toast --save
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ a lightweight mobile toast component build on vue
 #### import
 ``` javascript
 import { Toast } from 'zen-toast';
-
+// global use
 Vue.use(Toast);
 ```
 
