@@ -5,7 +5,7 @@
 a lightweight mobile toast component build on vue
 
 ## Installation
-```shell script
+```
 npm install zen-toast --save
 ```
 
