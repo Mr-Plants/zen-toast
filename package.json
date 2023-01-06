@@ -40,8 +40,8 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-scss": "^2.5.0",
     "rollup-plugin-terser": "^6.1.0",
-    "rollup-plugin-vue": "^5.1.9",
-    "vue-jest": "^3.0.6",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue-jest": "^4.0.1",
     "vue-template-compiler": "^2.6.11"
   }
 }
